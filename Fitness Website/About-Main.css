@@ -1,0 +1,64 @@
+:root{
+    --on-hover-color:#FF455B;
+    --grey-text-color:#9898A1;
+    --black-text-color:#18191B;
+    --red-text-color:#FF455B;
+    --button-bg:#18191B;
+    --font-IMB:'IBM Plex Sans', sans-serif;
+    --font-Lato:'Lato', sans-serif;
+    --font-Open: 'Open Sans', sans-serif;
+    --font-Outfit:'Outfit', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-main{
+    /* border: 1px solid maroon; */
+    height: 190vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.about-main img{
+    margin-top: 2rem;
+    height: 50rem;
+    width: 40rem;
+}
+.about-main h1{
+    margin-top: 2rem;
+    /* height: 50rem; */
+    width: 40rem;
+    font-size: 4rem;
+    font-family: var(--font-Open);
+}
+.about-main p{
+    margin-top: 2rem;
+    /* height: 50rem; */
+    width: 40rem;
+    text-align: justify;
+    font-family: var(--font-Outfit);
+    font-size: 1.2rem;
+}
+
+.two-para{
+    /* border: 2px solid aquamarine; */
+    height: 100vh;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.two-para p{
+    /* border: 1px solid rebeccapurple; */
+    height: 80%;
+    font-size: 1.4rem;
+    font-family: var(--font-Lato);
+    letter-spacing: 1px;
+}

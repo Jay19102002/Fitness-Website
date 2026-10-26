@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --on-hover-color:#FF455B;
+    --grey-text-color:#9898A1;
+    --black-text-color:#18191B;
+    --red-text-color:#FF455B;
+    --button-bg:#18191B;
+    --font-IMB:'IBM Plex Sans', sans-serif;
+    --font-Lato:'Lato', sans-serif;
+    --font-Open: 'Open Sans', sans-serif;
+    --font-Outfit:'Outfit', sans-serif;
+}
+
+
+#available-class{
+    height: 130vh;
+    /* border: 1px solid slateblue; */
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#available-class h3{
+    color: var(--on-hover-color);
+    font-family: var(--font-Outfit);
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+}
+#available-class h1{
+    font-family: var(--font-Outfit);
+    text-align: center;
+    font-size: 4rem;
+}
+
+
+.class-content{
+    /* border: 1px solid maroon; */
+    height: 100vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+    margin-top: 2rem;
+    
+}
+
+.class-content .card{
+    height: 27rem;
+    width: 21.5rem;
+    /* border: 1px solid lightcoral; */
+}
+.card .img-container{
+    height: 60%;
+    /* border: 1px solid greenyellow; */
+    width: 100%;
+}
+.img-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card .text-container{
+    height: 40%;
+    /* border: 1px solid gold; */
+}
+.text-container h2{
+    font-family: var(--font-Open);
+    color: var(--on-hover-color);
+    margin-top: 0.5rem;
+}
+.text-container p{
+    font-family: var(--font-Outfit);
+    color: var(--black-text-color);
+    margin-top: 0.3rem;
+    text-align: justify;    
+    font-size: 1rem;
+}

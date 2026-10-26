@@ -1,0 +1,105 @@
+:root{
+    --on-hover-color:#FF455B;
+    --grey-text-color:#9898A1;
+    --black-text-color:#18191B;
+    --red-text-color:#FF455B;
+    --button-bg:#18191B;
+    --font-IMB:'IBM Plex Sans', sans-serif;
+    --font-Lato:'Lato', sans-serif;
+    --font-Open: 'Open Sans', sans-serif;
+    --font-Outfit:'Outfit', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about{
+    height: 100vh;
+    /* border: 1px saddlebrown solid; */
+    display: flex;
+
+}
+
+.about .about-left{
+    /* border: 1px solid teal; */
+    width: 50%;
+    height: 100%;
+}
+.about-left :nth-child(1){
+    position: relative;
+    height: 0rem;
+    width:18rem;
+    top: 10%;
+    left: 30%;
+    opacity: 0;
+}
+.about-left :nth-child(2){
+    height: 0rem;
+    width:18rem;
+    position: relative;
+    left: -7px;
+    top: 46%;
+    opacity: 0;
+} 
+.about-left :nth-child(3){
+    height: 0rem;
+    width:20rem;
+    position: relative;
+    left: 5px;
+    top: 30%;
+    opacity: 0;
+} 
+.about .about-right{
+    /* border: 1px solid rgb(71, 105, 255); */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: start;
+    flex-direction: column;
+
+}
+
+.about-right h2{
+    color: var(--black-text-color);
+    font-family: var(--font-IMB);
+    font-size: 1.4rem;
+}
+.about-right h2 span{
+    color: var(--on-hover-color);
+}
+
+.about-right h4{
+    font-family: var(--font-Lato);
+    color: var(--grey-text-color);
+    font-size: 0.9rem;
+    margin-top:3rem ;
+    margin-bottom:1rem ;
+    letter-spacing: 1px;
+}
+.about-right ul li{
+    font-family: var(--font-Lato);
+    margin-top: 0.9rem;
+    
+}
+.about-right ul li{
+    color: var(--grey-text-color);
+    list-style: none;
+    font-size: 0.9rem;
+    position: relative;
+    left: 5rem;
+    
+}
+.about-right ul li::before{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-image: url(Icons/check.png);
+    background-size: cover;
+    background-position: center;
+    left: -1.6rem;
+    /* opacity: 0; */
+}
+

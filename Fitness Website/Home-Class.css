@@ -1,0 +1,40 @@
+:root{
+    --on-hover-color:#FF455B;
+    --grey-text-color:#9898A1;
+    --black-text-color:#18191B;
+    --red-text-color:#FF455B;
+    --button-bg:#18191B;
+    --font-IMB:'IBM Plex Sans', sans-serif;
+    --font-Lato:'Lato', sans-serif;
+    --font-Open: 'Open Sans', sans-serif;
+    --font-Outfit:'Outfit', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.class-carousel{
+    height: 100vh;
+    /* border: 1px solid mediumspringgreen; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.class-carousel h1{
+    font-family: var(--font-Open);
+    font-size: 3.5rem;
+}
+.item h2{
+    font-family:var(--font-Outfit) ;
+    font-size: 2rem;
+    text-align: center;
+    transition: 200ms ease;
+    margin-top: 20px;
+}
+.item h2:hover{
+    color: var(--on-hover-color);
+}

@@ -1,0 +1,189 @@
+:root{
+    --on-hover-color:#FF455B;
+    --grey-text-color:#9898A1;
+    --black-text-color:#18191B;
+    --red-text-color:#FF455B;
+    --button-bg:#18191B;
+    --font-IMB:'IBM Plex Sans', sans-serif;
+    --font-Lato:'Lato', sans-serif;
+    --font-Open: 'Open Sans', sans-serif;
+    --font-Outfit:'Outfit', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#about-2{
+    height: 90vh;
+    /* border: 1px solid blue; */
+    display: flex;
+    /* background: linear-gradient(80deg, rgba(34,193,195,0) 0%, rgba(0,0,0,1) 100%);
+    position: absolute; */
+    padding: 0 17.5rem 1rem;
+}
+.about-2-img{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid red; */
+    
+}
+
+.about-2-img img{
+    height: 100%;
+    width: 100%;
+    transform: scaleX(-1);
+    aspect-ratio: 3/4;
+}
+
+.about-2-text{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid violet; */
+/* background: linear-gradient(80deg, rgba(34,193,195,0) 0%, rgba(0,0,0,1) 100%); */
+}
+
+.about-2-text>span{
+    font-size: 3rem;
+    font-family:var(--font-Open);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--black-text-color);
+    margin-left: 2rem;
+    
+}
+.about-2-text :nth-child(2){
+    color: var(--on-hover-color);
+}
+
+.about-2-text h2{
+    text-transform: uppercase;
+    font-family:var(--font-Open);
+    font-weight: 800;
+    font-size: 3rem;
+    margin-left: 2rem;
+}
+
+.about-2-text p{
+    width: 70%;
+    font-size: 1.4rem;
+    font-family: var(--font-Lato);
+    margin-left: 2rem;
+    margin-top: 1.2rem;
+    text-align: justify;
+    
+}
+
+.about-2-text button{
+    margin-left: 2rem;
+    margin-top: 1.2rem;
+
+}
+
+.about-2-text button{
+    height: 4rem;
+    width: 12rem;
+    border-radius: 50px;
+    border: none;
+    background-color: var(--button-bg);
+    color: #fff;
+    font-family:var(--font-Outfit);
+    transition: 200ms ease;
+    
+}
+
+.about-2-text a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.about-2-text button:hover{
+    background-color: var(--on-hover-color);
+    transform: translateY(-10px);
+}
+
+.bg-fixed-1{
+    height: 100vh;
+    /* border: 2px red solid; */
+    background:  linear-gradient(to right bottom, #000000, #000000de, #000000e3, #000000ea, #000000e7),url(Images/img8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg-fixed-1 h1{
+    font-size: 6rem;
+    color: #fff;
+    font-family: var(--font-Outfit);
+    position: absolute;
+    top: 1%;
+    left: 25%;
+    transform: translateX(-50%,-50%);
+    text-transform: uppercase;
+    text-shadow: 2px 5px 50px #fff;
+}
+.bg-fixed-2{
+    height: 100vh;
+    /* border: 1px saddlebrown solid; */
+    background:  linear-gradient(to right bottom, #000000, #000000de, #000000e3, #000000ea, #000000e7),url(Images/img9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg-fixed-2 h1{
+    font-size: 6rem;
+    color: #fff;
+    font-family: var(--font-Outfit);
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    transform: translateX(-50%,-50%);
+    text-transform: uppercase;
+    text-shadow: 2px 5px 50px #fff;
+}
+
+
+.bg-fixed{
+    /* margin-top: 2rem; */
+    height: 100vh;
+    /* border: 1px solid blueviolet; */
+    background:  linear-gradient(to right bottom, #000000, #000000de, #000000e3, #000000ea, #000000e7),url(Images/img7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    overflow: hidden;
+    position: relative;
+}
+.bg-fixed h1{
+    color: #fff;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    transform: translateX(-50%,-50%);
+    font-family: var(--font-Outfit);
+    font-size: 4rem;
+    text-shadow: 2px 5px 50px #fff;
+    
+}
+.bg-fixed h4{
+    color: #ffffff80;
+    position: absolute;
+    top: 60%;
+    left: 44%;
+    transform: translateX(-50%,-50%);
+    font-family:var(--font-Outfit);
+    font-size: 1.1rem;
+
+}
